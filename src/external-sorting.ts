@@ -1,5 +1,6 @@
 import fsort, { ISortBy } from 'fast-sort';
-import fs, { promises as fsp } from 'fs';
+import fs from 'fs';
+import fsp from 'fs.promises';
 import os from 'os';
 import path from 'path';
 import { Readable, Writable } from 'stream';

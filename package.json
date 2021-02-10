@@ -1,6 +1,6 @@
 {
-  "name": "external-sorting",
-  "version": "1.2.0",
+  "name": "@pinpoint/external-sorting",
+  "version": "1.2.1-beta1",
   "description": "an external sorting algorithm implementation for NodeJS",
   "main": "dist/external-sorting.js",
   "repository": "git@github.com:ldubos/external-sorting.git",
@@ -36,6 +36,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "fast-sort": "^2.0.1"
+    "fast-sort": "^2.0.1",
+    "fs.promises": "^0.1.2"
   }
 }
